@@ -8,7 +8,7 @@ Tercer Trabajo Practico Sintaxis y Semantica de los Lenguajes - Año 2020 - Curs
 
 ## Instalacion
 * IDE: **Visual Studio Code**
-* Descargar Archivos: "**git clone https://github.com/LucasMaspero/TPSyS1.git**"
+* Descargar Archivos: "**git clone https://github.com/LucasMaspero/TPSyS3.git**"
 
 ## Ejecucion
 1) Ubicarse en carpeta Resolucion: "**cd Resolucion**"
