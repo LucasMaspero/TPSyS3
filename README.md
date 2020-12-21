@@ -1,4 +1,4 @@
-# Trabajo Practico N°3 - Lenguaje Mini (Gramatica Lexica con Flex)
+# Trabajo Practico N°3 - Lenguaje Mini (Analizador Léxico / Scanner con Flex)
 Tercer Trabajo Practico Sintaxis y Semantica de los Lenguajes - Año 2020 - Curso K2053
 
 ## Integrantes
