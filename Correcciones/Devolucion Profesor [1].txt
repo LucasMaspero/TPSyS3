@@ -1,0 +1,6 @@
+Si bien la salida del programa es correcta, esto no les va a servir en el TP4:
+
+Cada operador y caracter de puntuación devuelvanlo como un token separado, por ejemplo:
+    "+"      {return '+';}
+
+Devuelvan un token (diferente) por cada palabra reservada.

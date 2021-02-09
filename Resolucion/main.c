@@ -20,7 +20,11 @@ int main()
 		
 		switch (token)
 		{
-			case PALABRA_RESERVADA:
+			case PROGRAMA:
+			case DECLARAR:
+			case LEER:
+			case ESCRIBIR:
+			case FINPROG:
 				printf("Token: Palabra Reservada\tLexema: %s\n", yytext);
 				break;
 			case IDENTIFICADOR:
@@ -32,17 +36,21 @@ int main()
 			case OPERADOR_ASIGNACION:
 				printf("Token: Operador Asignación\tLexema: %s\n", yytext);
 				break;
-			case OPERADOR:
-				printf("Token Operador\tlexema: '%c'\n", yytext[0]);
+			case '+':
+			case '-':
+			case '*':
+			case '/':
+				printf("Token Operador\tLexema: '%c'\n", yytext[0]);
 				break;
-			case CARACTER_PUNTUACION:
-				printf("Token Caracter de Puntuacion\tlexema: '%c'\n", yytext[0]);
+			case ')':
+			case '(':
+			case ',':
+			case ';':
+				printf("Token Caracter de Puntuacion\tLexema: '%c'\n", yytext[0]);
 				break;
 			case FDT:
 				printf("Token: Fin de Archivo");
 				break;
 		}
 	} while (token != FDT);
-	
-	return 0;
 }
